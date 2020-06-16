@@ -1,0 +1,311 @@
+html{
+	/* This image will be displayed fullscreen */
+	background:url('../img/background3.jpg') no-repeat center center;
+	min-height:100%;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*background-size: 100vw auto;*/
+	background-size: cover;
+}
+
+body{
+	/* Workaround for some mobile browsers */
+	min-height:100%;
+
+	background-color: rgba(255, 255, 255, 0) !important;
+
+}
+
+.floating-contact {
+	float: top;
+	position: fixed;
+	top: 20px;
+    right: 20px;
+}
+
+.floating-contact-icon:hover {
+	color: #4099FF !important;
+}
+
+nav ul li:hover {
+	background-color: Azure;
+	color: black;
+	border-radius: 5px;
+}
+
+.profile-picture {
+	display: inline-block;
+    border-radius: 50%;
+    border: 4px solid #4cb7e8;
+
+    -webkit-box-shadow: 10px 10px 88px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 88px -15px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 88px -15px rgba(0,0,0,0.75);
+}
+
+.fullscreen-wrapper {
+	min-height: 100vh;
+
+
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+header{
+	max-width: 50vw;
+	text-align: center;
+	color: Azure;
+}
+
+#full-bg-01 {
+	background: url('../img/projects/traderoute()/traderoute_03.png') no-repeat center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+	text-align: center ;
+	color: Azure;
+
+	-webkit-box-shadow: inset 0px 0px 100px 50px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 100px 50px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 100px 50px rgba(0,0,0,0.75);
+}
+
+#full-bg-02 {
+	background: url('../img/projects/thestorm/the_storm_01.png') no-repeat center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+	text-align: center ;
+	color: Azure;
+
+	-webkit-box-shadow: inset 0px 0px 100px 50px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 100px 50px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 100px 50px rgba(0,0,0,0.75);
+}
+
+#full-bg-03 {
+	background: url('../img/projects/mirage/stars.png') no-repeat center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+	text-align: center ;
+	color: Azure;
+
+	-webkit-box-shadow: inset 0px 0px 100px 50px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 100px 50px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 100px 50px rgba(0,0,0,0.75);
+}
+
+#full-bg-04 {
+	background: url('../img/hogcraft_bg.jpg') no-repeat center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+	text-align: center ;
+	color: Azure;
+
+	-webkit-box-shadow: inset 0px 0px 100px 50px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 100px 50px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 100px 50px rgba(0,0,0,0.75);
+}
+
+#resume, #contact, #portfolio, #publications {
+	margin: 150px;
+	padding: 25px;
+	/*background-color: rgba(0, 0, 0, 0.33);*/
+    border-radius: 10px;
+	width: 50vw;
+	min-width: 700px;
+	color: Azure;
+}
+
+
+#traderoute {
+	background: url('../img/traderoute_bg.jpg') no-repeat center center;;
+	background-size: cover;
+}
+
+#hogcraft {
+	background: url('../img/hogcraft_bg.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+#defendtherocket {
+	background: url('../img/dtr_bg.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+#sgavatar {
+	background: url('../img/speech-graphics_bg.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+#thestorm {
+	background: url('../img/thestorm_bg.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+/*.collapsed {
+	background-image: none !important;
+	background-color: rgba(0, 0, 0, 0.35) !important;
+}*/
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 10px 0;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 5px 20px;
+}
+
+#bio {
+	padding: 25px 50px;
+}
+
+#twitter-widget-0 {
+	max-width: 450px !important;
+
+    -webkit-box-shadow: 10px 10px 88px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 88px -15px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 88px -15px rgba(0,0,0,0.75);
+}
+
+footer {
+	text-align: center;
+	color: rgba(255, 255, 255, 0.32);
+}
+
+.wip {
+	text-align: center;
+	color: white;
+}
+
+.content {
+	color: Azure !important;
+
+  	margin: 25px 0;
+  	padding: 25px;
+
+	background-color: rgba(0, 0, 0, 0.35);
+
+	border-radius: 5px;
+
+    -webkit-box-shadow: 10px 10px 88px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 88px -15px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 88px -15px rgba(0,0,0,0.75);
+}
+
+.project {
+	display: block;
+
+  	color: Azure !important;
+
+  	margin: 25px 0;
+  	padding: 25px;
+
+	min-height: 200px;
+	background-color: rgba(0, 0, 0, 0.35);
+
+	border-radius: 5px;
+
+    -webkit-box-shadow: 10px 10px 88px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 88px -15px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 88px -15px rgba(0,0,0,0.75);
+}
+
+.pub-article {
+	display: block;
+
+  	color: Azure !important;
+
+  	margin: 25px 0;
+  	padding: 25px;
+
+	min-height: 75px;
+	background-color: rgba(0, 0, 0, 0.35);
+
+	border-radius: 5px;
+
+    -webkit-box-shadow: 10px 10px 88px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 88px -15px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 88px -15px rgba(0,0,0,0.75);
+}
+
+.project .main {
+	display: flex;
+}
+
+.project .main div {
+	padding-left: 30px;
+}
+
+.project:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+  	text-decoration: none;
+}
+
+.project:link, .project:visited, .project:active {
+    text-decoration: none;
+}
+
+.project .main div h3 {
+	margin-top: 0;
+}
+
+.project-links {
+	list-style-type: none;
+	padding: 10px 0;
+}
+
+.project-links li a {
+	color: Azure;
+}
+
+.project-img-sml {
+	width: 20%;
+	margin: 5px 2%;
+}
+
+.project-img-md {
+	width: 40%;
+	margin: 5px 2.5%;
+}
+
+.project-img-lrg {
+	width: 100%;
+}
+
+.fa {
+	color: Azure;
+	font-size: 36px !important;
+}
+
+#contact ul {
+	list-style: none;
+	padding: 0;
+	margin: 25px 0;
+}
+
+#contact ul li {
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+	color: Azure !important;
+}
+
+#contact ul li i {
+	margin-right: 10px;
+}
+
+#contact ul li a {
+	padding-left: 10px !important;
+	color: Azure !important;
+}
